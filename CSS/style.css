@@ -145,5 +145,33 @@ nav ul{
     border-radius: 50%;
 }
 .content04{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    text-align: center;
+    /* justify-content: space-around; */
+    overflow-wrap: break-word;
+    margin:45px 25px;
+
+}
+.content04a{
+    /* border: 1px solid black; */
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.content04b{
+    /* border: 1px solid black; */
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) inset;
+}
+.content04c{
+    /* border: 1px solid black; */
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn04{
+    background-color: #2a2b30;
+    color: whitesmoke;
+    padding: 13px 25px;
+    border-radius: 25px;
 }
