@@ -175,3 +175,8 @@ nav ul{
     padding: 13px 25px;
     border-radius: 25px;
 }
+.content06{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    line-height: 2;
+}
