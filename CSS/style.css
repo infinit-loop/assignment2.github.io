@@ -7,7 +7,11 @@
     justify-content: space-evenly;
     
 }
-
+body{
+    padding: 0% 0.2% ;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .header1a{
     padding: 10px;
     font-size: xx-large;
@@ -52,4 +56,94 @@ nav ul{
 .btn2{
     background-color: #575e59;
     color: white;
+}
+.content1{
+    padding-left: 3%;
+    display: flex;
+    
+
+}
+.contain1{
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+    position: relative;
+}
+.contain1a{
+    width: 60%;
+    height: auto;
+    position:absolute;
+    bottom: -40px;
+    left: 40px;
+    overflow-wrap: break-word;
+    background-color:#2a2b30;
+    color: white;
+    padding: 20px;
+}
+.contain1 img{
+    background-color:whitesmoke;
+    padding-bottom: 200px;
+    width: 350px;
+    height: 300px;
+
+}
+.contain1b{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: inherit;
+    align-items: baseline;
+}
+.star{
+    margin-right: 5px;
+}
+.contain1a>p{
+    border-left: 1px solid whitesmoke;
+    padding: 3%;
+}
+.contain2{
+    width: 100%;
+    margin:auto 0px;
+}
+
+.content02{
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: baseline;
+    
+}
+.content02a{
+   padding: 2%;
+   font-size: medium;
+    
+}
+.content02ba{
+    padding: 2%;
+    font-weight: lighter;
+    line-height: 2;
+}
+.hr{
+    color: whitesmoke;
+}
+.content03{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    text-align: center;
+}
+.content03> div:nth-child(even){
+    margin-top: 20%;
+}
+.content03a{
+    overflow-wrap: break-word;
+}
+.exit1{
+    color:lightgrey;
+    margin-left:5px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+.content04{
+    display: flex;
 }
