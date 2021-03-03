@@ -267,10 +267,15 @@ nav ul{
 }
 .content08c{
     padding: 0px 13vw;
-    font-size: 40px;
+    /* font-size: 30px; */
 }
 .main2{
     box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1),
     0 0  0 2px rgb(255,255,255) inset;
     margin-top: 80px;
+}
+.fb{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: lightgrey;
 }
